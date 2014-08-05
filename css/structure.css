@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/* ******************************************************************
+	--structure.css--
+****************************************************************** */
+/*==================================================================
+	1. Style setting
+===================================================================*/
+/* ------------------------------------------------------------------
+	1-1. Common styles
+-------------------------------------------------------------------*/
+html {overflow-y: scroll; color: black; background-color: white;}
+a:link, a:visited {color: #7c6b4f; text-decoration: none;}
+a:hover, a:active {color: white; text-decoration: underline;}
+body {
+	font: 14px/1em Arial, Helvetica, sans-serif;
+	background-color: white;
+	-webkit-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	word-wrap: break-word;
+}
+select, input, button, textarea, button {font: 1em/1 Helvetica, Arial, sans-serif;}
+table {
+	font: 100%;
+	font-size: inherit;
+}
+pre, code, kbd, samp {
+	font-family: monospace;
+	line-height: 1;
+}
+
+/* ------------------------------------------------------------------
+	1-2. Headline styles
+-------------------------------------------------------------------*/
+.heading {
+	padding:0px 15px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 28px;
+	font-weight:bold;
+	line-height: 40px;
+	color: #164773;
+	text-transform: uppercase;
+}
+.heading a {
+	color: #164773;
+	text-decoration: none;
+}
+.heading a:hover {
+	background: url(../img/bg-heading-x.png) repeat-x center bottom;
+}
+
+/*==================================================================
+	2. Layout setting
+===================================================================*/
+/* ------------------------------------------------------------------
+	2-1. Base styles
+-------------------------------------------------------------------*/
+/* -----
+	form
+------- */
+
+/* -----
+	button
+------- */
+.button{
+	position:absolute;
+	bottom: 5px;
+	padding: 0px 15px;
+	background:url(../img/button-bg.png) left center repeat-x;
+}
+.button a{
+	padding: 3px 22px;
+	display: inline-block;
+	color: #7c6b4f;
+	text-align:center;
+	text-decoration:none;
+	background-color:#ece3d4;
+	border-top: 1px solid #c3b9a7;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.button a:hover{
+	color: white;
+	text-decoration: none;
+}
+/* -----
+	input
+------- */
+
+/* ------------------------------------------------------------------
+	2-2. Header styles
+-------------------------------------------------------------------*/
+#header{
+	padding-top: 50px;
+	text-align: center;
+	background: url(../img/header-bg.png) repeat-x;
+}
+
+/* ------------------------------------------------------------------
+	2-3. Navi styles
+-------------------------------------------------------------------*/
+.nav{
+	padding: 10px 0;
+	text-align:center;
+}
+.nav a{
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	color: #164773;
+	text-decoration:none;
+	border: 1px solid white;
+	background-color: #faf4e8;
+	box-shadow: 1px 1px 3px #c2b79f;
+}
+.nav a:hover, .nav .active{
+	color: white;
+	text-decoration: none;
+	background-color: #1e3347;
+	border: 1px solid #1e3347;
+	box-shadow: none;
+}
+
+/* ------------------------------------------------------------------
+	2-4. Main styles
+-------------------------------------------------------------------*/
+#wrapper{
+	background: #e8e0d0 url(../img/hoavan.png) no-repeat center 25px;
+}
+#container{
+	width: 961px;
+	margin: 0 auto;
+}
+#main{
+	padding: 1px 0 30px 0;
+	overflow:hidden;
+	background-color: #f7f0e5;
+	box-shadow: 0 0 3px #c2b79f;
+	text-align:center;
+}
+
+/* ------------------------------------------------------------------
+	2-5. Side styles
+-------------------------------------------------------------------*/
+#aside{
+	overflow:hidden;
+	margin:30px auto;
+}
+.section1{
+	width:220px;
+	float: left;
+	margin: 10px;
+}
+.section1 h2{
+	padding:10px 5px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	font-weight:bold;
+	color:#164773;
+}
+.section1 .content{
+	position:relative;
+	height:270px;
+	padding:10px;
+	color: #91846f;
+	background-color: #fdf7ee;
+	box-shadow: 0px 0px 3px #e0d6c5;
+}
+.section1 > .content > p{
+	line-height:20px;
+}
+.content .cornerImg{
+	position:absolute;
+	left:-50px;
+	bottom:-40px;
+
+}
+.section1 .content .galeryImg{
+	width:198px;
+	height:133px;
+	border:1px solid #e1d8c4;
+	margin:10px auto;
+}
+.section1 .content h3{
+	font-weight:bold;
+	color: #7c6b4f;
+}
+.supplier dt{
+	font-weight:bold;
+	line-height:24px;
+}
+.supplier dd{
+	font-size:12px;
+	line-height:24px;
+}
+.supplier dd span{
+	font-size:14px;
+}
+.contact p{
+	line-height:24px;
+}
+.contact span{
+	line-height:24px;
+}
+
+/* ------------------------------------------------------------------
+	2-6. Footer styles
+-------------------------------------------------------------------*/
+#footer{
+	line-height:100px;
+	color:#9a8e79;
+	background:url(../img/footer-bg.png) repeat-x;
+	overflow: hidden;
+}
+#footer .inner{
+	width:961px;
+	margin:0 auto;
+}
