@@ -1,4 +1,4 @@
-@charset "UTF-8";
+
 /* ******************************************************************
 	--structure.css--
 ****************************************************************** */
@@ -12,11 +12,12 @@ html {overflow-y: scroll; color: black; background-color: white;}
 a:link, a:visited {color: #7c6b4f; text-decoration: underline;}
 a:hover, a:active {color: white; text-decoration: underline;}
 body {
-	font: 14px/1em Arial, Helvetica, sans-serif;
-	background-color: white;
+	font: 14px/1em Arial, Helvetica, sans-serif, "Times New Roman";
+	background-color: #e8e0d0;
 	-webkit-text-size-adjust: none;
 	-ms-text-size-adjust: none;
 	word-wrap: break-word;
+	overflow: hidden;
 }
 select, input, button, textarea, button {font: 1em/1 Helvetica, Arial, sans-serif;}
 table {
@@ -32,13 +33,11 @@ pre, code, kbd, samp {
 	1-2. Headline styles
 -------------------------------------------------------------------*/
 .heading {
-	padding:0px 15px;
-	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size: 28px;
-	font-weight:bold;
-	line-height: 40px;
+	padding: 0px 15px;
+	font: bold 2em/1.5 "Times New Roman";
 	color: #164773;
-	text-shadow:0px 1px white;
+	text-align: center;
+	text-shadow: 0px 1px white;
 	text-transform: uppercase;
 }
 .heading a {
@@ -46,31 +45,21 @@ pre, code, kbd, samp {
 	text-decoration: none;
 }
 .heading a:hover {
-	background: url(../img/bg-heading-x.png) repeat-x center bottom;
+	background: url('../img/bg-heading-x.png') repeat-x center bottom;
 }
 
 .subheading{
-	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:16px;
-	font-weight:bold;
-	line-height: 24px;
-	color:#423319;
-	text-align:justify;
+	font: bold 1.2em/1.7 "Times New Roman";
+	color: #423319;
+	text-align: justify;
 	text-transform: uppercase;
 }
 
 .heading-aside{
-	padding:10px 5px;
-	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:20px;
-	font-weight:bold;
-	color:#164773;
-	text-shadow:none;
-}
-.subheading-aside{
-	font-weight:bold;
-	color: #7c6b4f;
-	line-height:24px;
+	padding: 10px 5px;
+	font: bold 1.4em "Times New Roman";
+	color: #164773;
+	text-shadow: none;
 }
 /*==================================================================
 	2. Layout setting
@@ -87,42 +76,35 @@ pre, code, kbd, samp {
 ------- */
 .button-wrapper{
 	position: absolute;
-	bottom: 10px;
+	bottom: 1em;
 	width: 100%;
+	text-align: center;
 }
 .button{
 	margin: 0px auto;
 	padding: 0px 15px;
-	background:url(../img/button-bg.png) left center repeat-x;
+	display: inline-block;
+	background: url('../img/button-bg.png') left center repeat-x;
 }
 .button a{
 	padding: 3px 22px;
-	display: inline-block;
+	display: block;
 	color: #7c6b4f;
-	text-align:center;
-	text-decoration:none;
-	background-color:#ece3d4;
+	text-decoration: none;
+	background-color: #ece3d4;
 	border-top: 1px solid #c3b9a7;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
 	border-radius: 3px;
+	-webkit-transition: 0.5s ease;
+	   -moz-transition: 0.5s ease;
+	    -ms-transition: 0.5s ease;
+	     -o-transition: 0.5s ease;
+	        transition: 0.5s ease;
 }
-.button a:hover, .button-aside a:hover{
+.button a:hover, .section1 .inner .link-aside:hover{
 	color: white;
-	text-decoration: none;
-}
-
-.button-wrapper-aside{
-	position: absolute;
-	right: 10px;
-	bottom: 10px;
-}
-.button-aside{
-	font-size: 12px;
-	color: #aea18d;
-	text-shadow:0px 1px white;
-}
-.button-aside a{
 	text-decoration: none;
 }
 
@@ -136,7 +118,6 @@ pre, code, kbd, samp {
 #header{
 	padding-top: 50px;
 	text-align: center;
-	background: url(../img/header-bg.png) repeat-x;
 }
 
 /* ------------------------------------------------------------------
@@ -144,17 +125,22 @@ pre, code, kbd, samp {
 -------------------------------------------------------------------*/
 .nav{
 	padding: 10px 0;
-	text-align:center;
+	text-align: center;
 }
 .nav a{
 	display: inline-block;
 	margin: 10px;
 	padding: 10px;
 	color: #164773;
-	text-decoration:none;
+	text-decoration: none;
 	border: 1px solid white;
 	background-color: #faf4e8;
 	box-shadow: 1px 1px 3px #c2b79f;
+	-webkit-transition: 1s ease;
+	   -moz-transition: 1s ease;
+	    -ms-transition: 1s ease;
+	     -o-transition: 1s ease;
+	        transition: 1s ease;
 }
 .nav a:hover, .nav .active{
 	color: white;
@@ -168,16 +154,16 @@ pre, code, kbd, samp {
 	2-4. Main styles
 -------------------------------------------------------------------*/
 #wrapper{
-	background: #e8e0d0 url(../img/hoavan.png) no-repeat center 25px;
+	background: url('../img/bg-header-x1.png') repeat-x, url('../img/hoavan-1.png') no-repeat top center;
 }
 #container{
-	width: 961px;
+	width: 960px;
 	margin: 0 auto;
 }
 #main{
 	padding: 1px 0 30px 0;
-	overflow:hidden;
-	background-color: #f7f0e5;
+	overflow: hidden;
+	background: url(../img/bg-main.png) repeat;
 	box-shadow: 0 0 3px #c2b79f;
 }
 
@@ -185,74 +171,99 @@ pre, code, kbd, samp {
 	2-5. Side styles
 -------------------------------------------------------------------*/
 #aside{
-	overflow:hidden;
-	margin:20px auto;
+	overflow: hidden;
+	margin: 20px auto;
 }
 .section1{
-	width:220px;
+	width: 22.89%;
 	float: left;
 	margin: 10px;
 }
 .section1 .inner{
-	position:relative;
-	height:270px;
-	padding:10px;
-	text-shadow:0px 1px white;
+	position: relative;
+	min-height: 270px;
+	padding: 10px;
+	text-shadow: 0px 1px white;
 	color: #91846f;
 	background-color: #fdf7ee;
 	overflow: hidden;
 	box-shadow: 0px 0px 3px #e0d6c5;
 }
-.section1 .inner p{
-	line-height:20px;
+.section1 .inner strong{
+	color: #7c6b4f;
 }
-
-.section1 .inner .content{
-
+.section1 .inner p{
+	line-height: 20px;
 }
 
 .cornerImg{
-	position:absolute;
-	left:-30px;
-	bottom:-50px;
+	position: absolute;
+	left: -30px;
+	bottom: -50px;
 }
 
 .galeryImg{
-	width:198px;
-	height:133px;
-	border:1px solid #e1d8c4;
-	margin:10px auto;
+	width: 198px;
+	height: 133px;
+	border: 1px solid #e1d8c4;
+	margin: 10px auto;
 }
 .author{
 	font-size: 12px;
 	font-style: italic;
+}
+
+.section1 .inner .link-aside{
+	position: absolute;
+	right: 1em;
+	bottom: 1em;
+	font-size: 0.85em;
+	text-decoration: none;
+	text-shadow: 0px 1px white;
+	color: #aea18d;
+}
+.supplier-list dt{
+	font-weight: bold;
+	line-height: 1.75em;
+	color: #7c6b4f;
 }
 .supplier-list dd{
 	font-size:12px;
 	line-height:24px;
 }
 .supplier-list dd span{
-	font-size:14px;
+	font-size: 14px;
+}
+.info-text{
+	margin-bottom: 1.8em;
 }
 .info-text p{
-	line-height:24px;
+	line-height: 1.75em;
 }
 .info-text span{
-	line-height:24px;
+	line-height: 1.75em;
 }
 
 /* ------------------------------------------------------------------
 	2-6. Footer styles
 -------------------------------------------------------------------*/
 #footer{
-	line-height:100px;
-	color:#9a8e79;
-	background:url(../img/footer-bg.png) repeat-x;
+	line-height: 100px;
+	color: #9a8e79;
+	background: url('../img/bg-footer-x.png') repeat-x;
 	overflow: hidden;
 }
 #footer .inner{
-	width:961px;
-	margin:0 auto;
+	width: 961px;
+	margin: 0px auto;
+}
+.leftBox a{
+	color: #9a8e79;
+	text-decoration: none;
+}
+.leftBox a:hover{
+	color: white;
+	text-decoration: underline;
 }
 .copyright{
 	float: right;

@@ -1,34 +1,33 @@
-@charset "UTF-8";
+
 /* ******************************************************************
 	--home-page--
 ****************************************************************** */
 .section{
 	position: relative;
 	float:left;
-	width: 319px;
-	height: 675px;
-	padding-top: 30px;
-	text-align: center;
+	width: 33%;
+	min-height: 670px;
+	padding: 20px 0px;
 	border-left: 1px solid white;
 	border-right: 1px solid #cec4b0;
 }
 .noBorderLeft{
-	border-left:none;
+	border-left: none;
 }
 .noBorderRight{
 	border-right: none;
 }
 .section .content{
-	margin: 0 18px 0 18px;
+	margin: 10px 20px;
+	text-align: justify;
 }
 .section .content img{
-	height:230px;
-	width: 280px;
-	margin: 10px auto;
+	width: 100%;
+	margin-bottom: 1.5em;
 	box-shadow: 0px 0px 3px #cec4b0;
 }
 
 .section .content p{
-	line-height:24px;
+	line-height: 24px;
 	color: #7c6b4f;
 }
