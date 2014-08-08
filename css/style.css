@@ -31,12 +31,12 @@
 }
 .section .content img{
 	max-width: 100%;
-	margin-bottom: 1.5em;
+	margin-bottom: 20px;
 	box-shadow: 0px 0px 3px #cec4b0;
 }
 
 .section .content p{
-	line-height: 24px;
+	line-height: 1.7em;
 	color: #7c6b4f;
 }
 /**********************************************************************
