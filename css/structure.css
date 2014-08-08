@@ -195,7 +195,7 @@ pre, code, kbd, samp {
 	overflow: hidden;
 	box-shadow: 0px 0px 3px #e0d6c5;
 }
-.section1 .inner strong{
+.shadow {
 	color: #7c6b4f;
 }
 .section1 .inner p{
