@@ -204,8 +204,9 @@ pre, code, kbd, samp {
 
 .cornerImg{
 	position: relative;
-	left: -30px;
+	left: -20px;
 	bottom: -20px;
+	max-width: 100%;
 	-webkit-transform: rotate(-5deg);
 	   -moz-transform: rotate(-5deg);
 	    -ms-transform: rotate(-5deg);
