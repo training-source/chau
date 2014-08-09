@@ -2,45 +2,24 @@
 /* ******************************************************************
 	--home-page--
 ****************************************************************** */
-.section{
-	position: relative;
-	float:left;
-	width: 33.33%;
-	min-height: 670px;
-	padding: 30px 0px;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-o-box-sizing: border-box;
-	border-left: 1px solid white;
-	border-right: 1px solid #cec4b0;
-}
-.noBorderLeft{
-	border-left: none;
-}
-.noBorderRight{
-	border-right: none;
-}
-.section .heading{
-	padding: 0px 15px 10px;
-	text-align: center;
-}
-.section .content{
-	padding: 10px 20px;
-	text-align: justify;
-}
-.section .content img{
-	max-width: 100%;
-	margin-bottom: 15px;
-	box-shadow: 0px 0px 3px #cec4b0;
-}
-
-.section .content p{
-	padding-top: 5px;
-	line-height: 1.7em;
-	color: #7c6b4f;
-}
+@import url("style-homepage.css");
 /**********************************************************************
 	-- organic-gardening--
 **********************************************************************/
-@import "organic-gardening.css";
+@import url("style-organic-gardening.css");
+/**********************************************************************
+	-- tips-useful-links--
+**********************************************************************/
+@import url("style-tip-useful-link.css");
+/**********************************************************************
+	-- tips-useful-links--
+**********************************************************************/
+@import url("style-blog.css");
+/**********************************************************************
+	-- tips-useful-links--
+**********************************************************************/
+@import url("style-about.css");
+/**********************************************************************
+	-- tips-useful-links--
+**********************************************************************/
+@import url("style-contact.css");
