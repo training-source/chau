@@ -155,7 +155,7 @@ pre, code, kbd, samp {
 	2-4. Main styles
 -------------------------------------------------------------------*/
 #wrapper{
-	background: url('../img/bg-header-x1.png') repeat-x, url('../img/hoavan-1.png') no-repeat top center;
+	background: url('../img/bg-top-page.png') repeat-x, url('../img/hoavan-1.png') no-repeat top center;
 }
 #container{
 	max-width: 960px;
@@ -175,6 +175,7 @@ pre, code, kbd, samp {
 #aside{
 	overflow: hidden;
 	padding: 20px 0;
+	clear: both;
 }
 .section1{
 	width: 25%;
