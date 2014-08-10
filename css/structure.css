@@ -28,7 +28,12 @@ pre, code, kbd, samp {
 	font-family: monospace;
 	line-height: 1;
 }
-
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
 /* ------------------------------------------------------------------
 	1-2. Headline styles
 -------------------------------------------------------------------*/
@@ -181,10 +186,6 @@ pre, code, kbd, samp {
 	float: left;
 	width: 25%;
 	padding: 10px;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	-o-box-sizing: border-box;
 }
 .section1 .inner{
 	position: relative;
