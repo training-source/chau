@@ -197,11 +197,9 @@ pre, code, kbd, samp {
 	background-color: #fdf7ee;
 	box-shadow: 0px 0px 3px #e0d6c5;
 }
-
 .section1 .inner p{
 	line-height: 1.4em;
 }
-
 .corner-img{
 	position: relative;
 	bottom: -20px;
@@ -213,7 +211,6 @@ pre, code, kbd, samp {
 	     -o-transform: rotate(-5deg);
 	        transform: rotate(-5deg);
 }
-
 .section1 .inner .content strong{
 	display: block;
 	margin-bottom: 10px;
@@ -228,7 +225,6 @@ pre, code, kbd, samp {
 	font-size: 0.85em;
 	font-style: italic;
 }
-
 .section1 .inner .link-aside{
 	position: absolute;
 	right: 10px;
@@ -242,7 +238,6 @@ pre, code, kbd, samp {
 	color: #aea18d;
 	text-decoration: underline;
 }
-
 .supplier-list dt{
 	padding-bottom: 5px;
 	font-weight: bold;
@@ -261,7 +256,6 @@ pre, code, kbd, samp {
 .info-text{
 	padding-bottom: 25px;
 }
-
 .info-text span{
 	display: block;
 	line-height: 1.8em;
