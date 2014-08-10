@@ -10,8 +10,9 @@
 	border-left: 1px solid white;
 	border-right: 1px solid #cec4b0;
 }
-.section .heading{
+.heading{
 	padding: 0px 15px 10px;
+	min-height: 82px;
 	text-align: center;
 }
 .section .content{
@@ -28,9 +29,9 @@
 	line-height: 1.7em;
 	color: #7c6b4f;
 }
-.noBorderLeft{
+.no-border-left{
 	border-left: none;
 }
-.noBorderRight{
+.no-border-right{
 	border-right: none;
 }
