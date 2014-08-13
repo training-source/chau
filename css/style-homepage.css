@@ -10,10 +10,13 @@
 	border-left: 1px solid white;
 	border-right: 1px solid #cec4b0;
 }
-.heading{
+#homepage .heading{
 	padding: 0px 15px 10px;
-	min-height: 82px;
+	min-height: 80px;
 	text-align: center;
+}
+#homepage .sub-heading{
+	text-transform: uppercase;
 }
 .section .content{
 	padding: 10px 20px;
