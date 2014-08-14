@@ -1,3 +1,14 @@
 /**********************************************************************
 	-- organic-gardening--
 **********************************************************************/
+#organic-gardening #main{
+	padding: 35px 18px;
+	text-align: justify;
+}
+#organic-gardening .heading{
+	padding-bottom: 25px;
+}
+#organic-gardening .sub-heading{
+	padding-bottom: 20px;
+}
+#organic-gardening 

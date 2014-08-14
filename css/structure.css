@@ -54,7 +54,6 @@ pre, code, kbd, samp {
 .sub-heading{
 	font: bold 1.2em "Times New Roman", Helvetica, Arial, sans-serif;
 	color: #423319;
-	text-transform: uppercase;
 }
 
 .heading-aside{
