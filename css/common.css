@@ -58,16 +58,16 @@ legend {display: none;}
 /* ------------------------------------------------------------------
 	1-2. VisualFormattingModel styles
 -------------------------------------------------------------------*/
-.noDisplay {display: none;}
+.no-display {display: none;}
 .block {display: block;}
 .inline {display: inline;}
-.inlineBlock {display: inline-block;}
+.inline-block {display: inline-block;}
 .static {position: static;}
 .relative {position: relative;}
 .absolute {position: absolute;}
-.leftBox {float: left;}
-.rightBox {float: right;}
-.noFloat {float: none;}
+.left-box {float: left;}
+.right-box {float: right;}
+.noF-float {float: none;}
 .clear {clear: both;}
 .clearfix {zoom: 1;}
 .clearfix:after {
@@ -94,7 +94,7 @@ strong, .bold {font-weight: bold;}
 .right {text-align: right;}
 .justify {text-align:justify;}
 .underline {text-decoration: underline;}
-.textNoLine {text-decoration: none;}
+.text-no-line {text-decoration: none;}
 
 /* ------------------------------------------------------------------
 	1-4. List styles

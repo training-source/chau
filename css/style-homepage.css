@@ -1,36 +1,12 @@
 /* ******************************************************************
 	--home-page--
 ****************************************************************** */
-.section{
-	position: relative;
-	float:left;
-	width: 33.33%;
-	min-height: 670px;
-	padding: 30px 0px;
-	border-left: 1px solid white;
-	border-right: 1px solid #cec4b0;
-}
-#homepage .heading{
-	padding: 0px 15px 10px;
+#homepage .section .heading{
 	min-height: 80px;
 	text-align: center;
 }
-#homepage .sub-heading{
+#homepage .section .sub-heading{
 	text-transform: uppercase;
-}
-.section .content{
-	padding: 10px 20px;
-	text-align: justify;
-}
-.section .content img{
-	max-width: 100%;
-	margin-bottom: 15px;
-	box-shadow: 0px 0px 3px #cec4b0;
-}
-.section .content p{
-	padding-top: 5px;
-	line-height: 1.7em;
-	color: #7c6b4f;
 }
 .no-border-left{
 	border-left: none;

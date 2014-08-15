@@ -34,43 +34,13 @@ pre, code, kbd, samp {
 	-webkit-box-sizing: border-box;
 	-o-box-sizing: border-box;
 }
-/* ------------------------------------------------------------------
-	1-2. Headline styles
--------------------------------------------------------------------*/
-.heading {
-	font: bold 2em/1.3 "Times New Roman", Helvetica, Arial, sans-serif;
-	color: #164773;
-	text-shadow: 0px 1px white;
-	text-transform: uppercase;
-}
-.heading a {
-	color: #164773;
-	text-decoration: none;
-}
-.heading a:hover {
-	background: url(../img/bg-heading-x.png) repeat-x center bottom;
-}
 
-.sub-heading{
-	font: bold 1.2em "Times New Roman", Helvetica, Arial, sans-serif;
-	color: #423319;
-}
-
-.heading-aside{
-	padding: 0 0 5px 10px;
-	font: bold 1.4em "Times New Roman", Helvetica, Arial, sans-serif;
-	color: #164773;
-}
 /*==================================================================
 	2. Layout setting
 ===================================================================*/
 /* ------------------------------------------------------------------
 	2-1. Base styles
 -------------------------------------------------------------------*/
-/* -----
-	form
-------- */
-
 /* -----
 	button
 ------- */
@@ -108,10 +78,6 @@ pre, code, kbd, samp {
 	text-decoration: none;
 }
 
-/* -----
-	input
-------- */
-
 /* ------------------------------------------------------------------
 	2-2. Header styles
 -------------------------------------------------------------------*/
@@ -122,6 +88,7 @@ pre, code, kbd, samp {
 .logo img{
 	max-width: 100%;
 }
+
 /* ------------------------------------------------------------------
 	2-3. Navi styles
 -------------------------------------------------------------------*/
@@ -169,94 +136,6 @@ pre, code, kbd, samp {
 	overflow: hidden;
 	background-color: #f7f0e5;
 	box-shadow: 0 0 3px #c2b79f;
-}
-
-/* ------------------------------------------------------------------
-	2-5. Side styles
--------------------------------------------------------------------*/
-#aside{
-	overflow: hidden;
-	padding: 20px 0;
-	clear: both;
-}
-.section1{
-	float: left;
-	width: 25%;
-	padding: 10px;
-}
-.section1 .inner{
-	position: relative;
-	height: 250px;
-	padding: 10px;
-	color: #91846f;
-	overflow: hidden;
-	text-shadow: 0px 1px white;
-	background-color: #fdf7ee;
-	box-shadow: 0px 0px 3px #e0d6c5;
-}
-.section1 .inner p{
-	line-height: 1.4em;
-}
-.corner-img{
-	position: relative;
-	bottom: -20px;
-	left: -20px;
-	max-width: 100%;
-	-webkit-transform: rotate(-5deg);
-	   -moz-transform: rotate(-5deg);
-	    -ms-transform: rotate(-5deg);
-	     -o-transform: rotate(-5deg);
-	        transform: rotate(-5deg);
-}
-.section1 .inner .content strong{
-	display: block;
-	margin-bottom: 10px;
-	color: #7c6b4f;
-}
-.galery-img{
-	max-width: 100%;
-	margin-bottom: 10px;
-	border: 1px solid #e1d8c4;
-}
-.author{
-	font-size: 0.85em;
-	font-style: italic;
-}
-.section1 .inner .link-aside{
-	position: absolute;
-	right: 10px;
-	bottom: 10px;
-	font-size: 0.85em;
-	color: #aea18d;
-	text-decoration: none;
-	text-shadow: 0px 1px white;
-}
-.section1 .inner .link-aside:hover{
-	color: #aea18d;
-	text-decoration: underline;
-}
-.supplier-list dt{
-	padding-bottom: 5px;
-	font-weight: bold;
-	line-height: 1.5em;
-	color: #7c6b4f;
-}
-.supplier-list dd {
-	padding-bottom: 10px;
-	font-size: 0.85em;
-	line-height: 1.7em;
-}
-.supplier-list dd span{
-	display: block;
-	font-size: 1.3em;
-}
-.info-text{
-	padding-bottom: 25px;
-}
-.info-text span{
-	display: block;
-	line-height: 1.8em;
-	text-align: justify;
 }
 
 /* ------------------------------------------------------------------
