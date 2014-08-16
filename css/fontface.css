@@ -1,4 +1,6 @@
-
+/*==================================================================
+	fontface.css
+===================================================================*/
 @font-face {font-family: 'fontawesome'; font-weight: normal; font-style: normal;
 		src: url('../fonts/fontawesome-webfont.eot');
 		src: url('../fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
