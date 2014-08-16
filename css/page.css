@@ -14,6 +14,7 @@
 }
 #homepage .section .sub-heading{
 	text-transform: uppercase;
+	color: #423319;
 }
 #homepage .section p{
 	padding-top: 5px;
@@ -36,5 +37,57 @@
 	margin-right: 18px;
 }
 #organic-gardening .section p{
-	padding-bottom: 25px;
+	padding-bottom: 30px;
+}
+
+/* Tips and useful link page
+-------------------------------------------------------------------*/
+#tip-link .section .inner{
+	padding-top: 10px;
+}
+#tip-link .section .content{
+	float: left;
+	width: 50%;
+	min-height: 670px;
+	padding: 0px 40px 15px 40px;
+}
+.border-left{
+	border-left: 1px solid white;
+}
+.border-right{
+	border-right: 1px solid #cec4b0;
+}
+}
+#tip-link .section img{
+	width: 100%;
+}
+#tip-link ul{
+	padding-left: 18px;
+}
+#tip-link ul li{
+	line-height: 24px;
+	list-style-type: disc;
+}
+/* Blog
+-------------------------------------------------------------------*/
+#blog .section{
+	float: left;
+	width: 70%;
+	min-height: 670px;
+}
+#blog .right-bar{
+	float: left;
+	width: 30%;
+	min-height: 670px;
+	padding: 90px 20px;
+}
+#blog .content{
+	padding-left: 15px;
+}
+#blog ul li{
+	line-height: 24px;
+	list-style-type: disc;
+}
+#blog ul li a{
+	text-decoration: none;
 }

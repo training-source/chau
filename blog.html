@@ -12,27 +12,22 @@
 		<meta name="author" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-		<link rel="stylesheet" href="css/common.css">
-		<link rel="stylesheet" href="css/fontface.css">
-		<link rel="stylesheet" href="css/structure.css">
-		<link rel="stylesheet" href="css/responsive.css">
-		<link rel="stylesheet" href="css/print.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<script src="js/jquery-2.1.0.min.js"></script>
 		<script src="js/modernizr.js"></script>
 		<script src="js/script.js"></script>
 	</head>
-	<body id="homepage">
+	<body id="blog">
 		<div id="wrapper">
 			<header id="header">
 				<h1><a href="homepage.html" class="logo" title="Organic Vegetable Gardening"><img src="img/logo.png"/></a></h1>
 				<nav class="nav">
 					<a href="homepage.html" title="Home">Home</a>
-					<a href="#" title="Organic Gardening" class="active">Organic Gardening</a>
-					<a href="#" title="Gardening Tips &amp; Useful Links">Gardening Tips &amp; Useful Links</a>
-					<a href="#" title="Blog">Blog</a>
-					<a href="#" title="About">About</a>
-					<a href="#" title="Contact">Contact</a>
+					<a href="organic-gardening.html" title="Organic Gardening">Organic Gardening</a>
+					<a href="tip-useful-link.html" title="Gardening Tips &amp; Useful Links">Gardening Tips &amp; Useful Links</a>
+					<a href="blog.html" title="Blog" class="active">Blog</a>
+					<a href="about.html" title="About">About</a>
+					<a href="contact.html" title="Contact">Contact</a>
 				</nav>
 			</header>
 			<!-- /#header -->
@@ -40,13 +35,49 @@
 			<div id="container">
 
 				<main id="main">
-					<h2 class="heading">Blog</h2>
-					
+					<section class="section border-right">
+						<h2 class="heading">Blog</h2>
+						<div class="content">
+							<h3 class="sub-heading">This website template has been designed by freewebsitetemplates.com for you, for free. You can replace all this text with your own text.</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec nisi erat, nec placerat risus. Nunc id metus et metus mollis fringilla. Quisque dictum, odio et volutpat posuere, massa ligula gravida dui, ut varius arcu lorem non neque. Donec semper placerat magna ut eleifend. Donec rhoncus quam at dolor tempor non pulvinar augue suscipit. Maecenas nibh nulla, molestie nec sodales a, interdum vitae mauris. Fusce varius massa et velit rutrum aliquet. Integer nisi erat, ornare eget commodo a, accumsan vel nibh. Mauris aliquet ante et enim convallis auctor. Aliquam elementum dictum elementum. Quisque vulputate dignissim neque, at faucibus lectus dignissim ut. Vestibulum eget accumsan ipsum. Donec ut mi massa, id rhoncus dui. Proin vitae ipsum a enim ultrices laoreet. Maecenas at dolor ante, vel malesuada odio. Integer vehicula elementum metus ac semper.</p>
+							<p>Curabitur cursus luctus pellentesque. Aliquam vitae odio odio, non sodales augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut laoreet, lectus non consectetur tempus, elit lorem lobortis mi, quis sagittis metus elit at augue. Proin dictum ipsum at lacus mattis pretium. Nam blandit mi id enim laoreet consectetur. Sed venenatis neque nec justo gravida eu cursus enim mattis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse in massa enim, a elementum velit. Curabitur lacus eros, dictum eget luctus nec, consectetur vitae sapien. Aliquam erat volutpat. Integer eleifend turpis lorem, ut molestie tellus. Proin vel tristique neque. Proin non tempus quam. </p>
+						</div>
+					</section>
+
+						<div class="right-bar border-left">
+							<div class="section-2">
+								<h3 class="sub-heading">Recent Post</h3>
+								<div class="link-list">
+									<ul>
+										<li><a href="#" title="">Cras tempor turpis</a></li>
+										<li><a href="#" title="">Mattis tempor</a></li>
+										<li><a href="#" title="">Lectus tincidunt</a></li>
+										<li><a href="#" title="">Pharetra metus</a></li>
+										<li><a href="#" title="">Donec vitae vehicula</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="section-2">
+								<h3 class="sub-heading">Archive</h3>
+								<div class="link-list">
+									<ul>
+										<li><a href="#" title="">Cras tempor turpis</a></li>
+										<li><a href="#" title="">Mattis tempor</a></li>
+										<li><a href="#" title="">Lectus tincidunt</a></li>
+										<li><a href="#" title="">Pharetra metus</a></li>
+										<li><a href="#" title="">Donec vitae vehicula</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
 				</main>
-				<!--main -->
-				<aside id="aside">
-					<section class="section1">
-						<h2 class="heading-aside">Magazine &amp; books</h2>
+				<!-- /#main -->
+
+				<section id="aside" class="clearfix">
+					<section class="section-1">
+						<h2 class="heading"><a href="#" title="">Magazine &amp; books</a></h2>
 						<div class="inner">
 							<div class="content">
 								<p>Fusce interdum vestibulum lacus, sagittis sagittis mauris </p>
@@ -55,8 +86,8 @@
 						</div>
 					</section>
 
-					<section class="section1">
-						<h2 class="heading-aside">Gallery</h2>
+					<section class="section-1">
+						<h2 class="heading"><a href="#" title="">Gallery</a></h2>
 						<div class="inner">
 							<div class="content">
 								<strong class="shadow mb10">Donec a quam quis est</strong>
@@ -68,8 +99,8 @@
 						</div>
 					</section>
 
-					<section class="section1">
-						<h2 class="heading-aside">Suppliers directory</h2>
+					<section class="section-1">
+						<h2 class="heading"><a href="#" title="">Suppliers directory</a></h2>
 						<div class="inner">
 							<div class="content">
 								<dl class="supplier-list">
@@ -85,8 +116,8 @@
 						</div>
 					</section>
 
-					<section class="section1">
-						<h2 class="heading-aside">Get in touch</h2>
+					<section class="section-1">
+						<h2 class="heading"><a href="#" title="">Get in touch</a></h2>
 						<div class="inner">
 							<div class="content">
 								<p class="info-text">Email: <span>company@email.com</span></p>
@@ -95,10 +126,8 @@
 							</div>
 						</div>
 					</section>
-
-				</aside>
+				</section>
 				<!-- /#aside -->
-
 			</div>
 			<!-- /#container -->
 
@@ -109,9 +138,7 @@
 				</div>
 			</footer>
 			<!-- /#footer -->
-
 		</div>
 		<!-- /#wrapper -->
-
 	</body>
 </html>

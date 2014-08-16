@@ -12,6 +12,7 @@ a:link, a:visited {color: #7c6b4f; text-decoration: underline;}
 a:hover, a:active {color: #164773; text-decoration: underline;}
 body {
 	font: 14px/1em Arial, Helvetica, sans-serif;
+	color: #7c6b4f;
 	background-color: #e8e0d0;
 	-webkit-text-size-adjust: none;
 	-ms-text-size-adjust: none;
@@ -40,6 +41,15 @@ pre, code, kbd, samp {
 /* ------------------------------------------------------------------
 	2-1. Base styles
 -------------------------------------------------------------------*/
+/* -----
+	colors
+------- */
+.metallic-bronze{
+	color: #423319;
+}
+.shadow{
+	color: #7C6B4F;
+}
 /* -----
 	button
 ------- */
