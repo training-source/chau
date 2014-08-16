@@ -6,11 +6,8 @@
 .section {
 	position: relative;
 	float: left;
-	width: 33.33%;
-	min-height: 670px;
+	min-height: 700px;
 	padding: 30px 0px;
-	border-left: 1px solid white;
-	border-right: 1px solid #cec4b0;
 }
 .section .heading {
 	padding: 0px 15px 10px;
@@ -40,7 +37,6 @@
 	box-shadow: 0px 0px 3px #cec4b0;
 }
 .section p {
-	padding-top: 5px;
 	line-height: 1.7em;
 	color: #7c6b4f;
 }
